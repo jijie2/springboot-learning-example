@@ -15,7 +15,7 @@ public class HelloBookController {
     @RequestMapping(value = "/book/hello",method = RequestMethod.GET)
     public String sayHello() {
         int a=2;
-        String s= "jijie";//test  fenzhi
+        String s= "jijie";//test  fenzhi23455
         return "Hello，《Spring Boot 2.x 核心技术实战 - 上 基础篇》！";
     }
 }
