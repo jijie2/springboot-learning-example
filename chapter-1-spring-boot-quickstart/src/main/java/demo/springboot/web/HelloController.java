@@ -16,6 +16,9 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @ResponseBody
     public String sayHello() {
+
+
+        //tianjia daima
         return "Hello，Spring Boot！";
     }
 }
